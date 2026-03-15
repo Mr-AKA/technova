@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHNOVA</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="templatemo-electric-xtra.css" rel="stylesheet" />
+    <!--
+
+TemplateMo 596 Electric Xtra
+
+https://templatemo.com/tm-596-electric-xtra
+
+-->
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8') center/cover no-repeat;
+height:70vh;
+color:white;
+display:flex;
+align-items:center;
+text-align:center;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.6);
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+}
+
+.category-card{
+transition:0.3s;
+cursor:pointer;
+}
+
+.category-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.product-card img{
+height:200px;
+object-fit:cover;
+}
+
+.gallery img{
+height:200px;
+object-fit:cover;
+}
+
+.cta{
+background:#0d6efd;
+color:white;
+padding:60px 0;
+}
+
+footer{
+background:#111;
+color:white;
+padding:40px 0;
+}
+.hero-overlay{
+background: rgba(18, 42, 109, 0.514);
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+}
+
+
+  
+</style>
+  </head>
+  <body>
+    <!-- Animated Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Animated Shapes -->
+    <div class="shapes-container">
+      <div class="shape shape-circle"></div>
+      <div class="shape shape-triangle"></div>
+      <div class="shape shape-square"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo-link">
+          <img
+            src="/images/TECHNOVA LOGO.png"
+            style="height: 60px; margin-left: 10px"
+          />
+         
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="nav-links active rounded">Home</a></li>
+          <li><a href="products.html" class="nav-link rounded">Products</a></li>
+          <li><a href="aboutus.html" class="nav-link rounded">About Us</a></li>
+          <li><a href="contactus" class="nav-link rounded">Contact us</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav> 
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-overlay">
+      <div class="hero-content">
+        <div class="text-rotator">
+          <div class="text-set active mb-5">
+            <h1 class="glitch-text" data-text="FUTURE IS NOW">
+              Powering Malawi with Modern Technology
+            </h1>
+            <p class="subtitle col-lg-8 justify-content-center mx-auto">
+              High-quality smartphones, laptops, computers, and digital
+              accessories sourced from trusted global brands.
+            </p>
+          </div>
+          <!-- <div class="text-set">
+            <h1 class="glitch-text" data-text="BEYOND LIMITS">BEYOND LIMITS</h1>
+            <p class="subtitle">
+              Where technology meets infinite possibilities
+            </p>
+          </div>
+          <div class="text-set">
+            <h1 class="glitch-text" data-text="ELECTRIC DREAMS">
+              ELECTRIC DREAMS
+            </h1>
+            <p class="subtitle">Powering tomorrow's digital revolution today</p>
+          </div> -->
+        </div>
+      </div>
+     
+      <div class="cta-container">
+        <a href="#features" class="cta-button cta-primary rounded">Get Started</a>
+        <a href="#about" class="cta-button cta-secondary rounded">Learn More</a>
+      </div>
+       </div>
+    </section>
+
+    <!-- Features Section with Tabs -->
+    <section class="features py-5" id="features">
+
+  <div class="container">
+
+    <h2 class="section-title text-center mb-5">Explore Our Top Tech</h2>
+
+    <div class="row g-4">
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/laptop/10020.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/phone/43adffd70b062519f5e6718872d6da70.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/laptop/10178.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/00c0e4153faeee0def58096574985f77.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/4b00d3e3c0e326fb6feff3a94f5e039f.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/laptop/10128.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/25e1bf2576921096b392631fe6fe1589.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/d7cdec94bb1a046f03e1ac36fbd7b7f6.png">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <section class="features py-5" id="features">
+
+  <div class="container">
+
+    <h2 class="section-title text-center mb-5">🔥 Featured Deals</h2>
+
+    <div class="row g-4">
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/215fe14e6544dc1048dd60070037efb4.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/bdfa0bf6e96ef7010cb2291f0e6b2f4b.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/bdd33e701d05a051ee0693571ea36858.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/732049d0e3d1a1c3ce00f0ca8f3f64cb.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/97bfe4d56621b6de041588b0dfb83555.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/50e833110c432c3acf8ea203450a3371.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/28406eda3d0e55fb63ee8eeaff7b62dc.png">
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <img class="img-fluid shadow rounded w-100" src="/images/accessories/d3f09d3558262fddeb8c10f3f7955ccb.png">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+    <!-- Category -->
+ 
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+<!-- Why Choose Us -->
+
+<section class="py-5 border-1 bg-primary bg-opacity-10">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Why Choose Our Shop</h2>
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-star fa-3x text-primary"></i>
+
+<h5 class="mt-3">Quality Products</h5>
+
+</div>
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-tags fa-3x text-primary"></i>
+
+<h5 class="mt-3">Affordable Prices</h5>
+
+</div>
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-truck fa-3x text-primary"></i>
+
+<h5 class="mt-3">Fast Service</h5>
+
+</div>
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-thumbs-up fa-3x text-primary"></i>
+
+<h5 class="mt-3">Trusted Shop</h5>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section class="gallery  py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Product Gallery</h2>
+
+<div class="row g-3">
+
+<div class="col-md-3">
+  <img src="images/phone/44e72acf34884d19c9b65496d1c1922a.png" class="img-fluid rounded">
+</div>
+<div class="col-md-3">
+  <img src="images/phone/f146768d0ed21c5b0710ab5982dc9a52.png" class="img-fluid rounded">
+</div>
+<div class="col-md-3">
+  <img src="images/accessories/e10fc3b40a282173d7504b0d3c6c990c.png" class="img-fluid rounded">
+</div>
+<div class="col-md-3">
+  <img src="images/phone/44e72acf34884d19c9b65496d1c1922a.png" class="img-fluid rounded">
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta text-center bg-danger bg-opacity-10">
+
+<div class="container">
+
+<h2>Need Quality Accessories?</h2>
+
+<p>Contact us today or chat with us on WhatsApp.</p>
+
+<a href="https://wa.me/265994302094?text=Hello" class="cta-button cta-primary rounded">
+<i class="fab fa-whatsapp"></i> Chat on WhatsApp
+</a>
+</div>
+
+</section>
+
+   
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+          <a href="#careers">Careers</a>
+        </div>
+        <p class="copyright">
+          © 2025 ELECTRIC XTRA. All rights reserved. Building tomorrow, today. |
+          Design:
+          <a
+            href="https://templatemo.com"
+            target="_blank"
+            rel="nofollow noopener"
+            >TemplateMo</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="templatemo-electric-scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- for categories -->
+
+    <script>
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const products = document.querySelectorAll(".product");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          let filter = button.getAttribute("data-filter");
+
+          products.forEach((product) => {
+            if (filter === "all") {
+              product.style.display = "block";
+            } else if (product.classList.contains(filter)) {
+              product.style.display = "block";
+            } else {
+              product.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
