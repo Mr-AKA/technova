@@ -585,7 +585,7 @@ nav.scrolled {
 
 .cta-container {
   position: absolute;
-  bottom: 90px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -1179,6 +1179,10 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .about-graphic img {
+    width: 100%;
+    height: auto !important;
+}
   nav {
     padding: 15px 20px;
   }
